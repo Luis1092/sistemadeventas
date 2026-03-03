@@ -14,6 +14,7 @@ if(isset($_SESSION['session_email'])){
     $id_usuario_session = $usuario['id_usuario'];
     $nombre_session = $usuario['nombres'];
     $rol_session = $usuario['rol'];
+    
   }
 
 }else{

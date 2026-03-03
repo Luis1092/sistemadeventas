@@ -223,6 +223,32 @@ Swal.fire({
             </ul>
           </li>
 
+          <li class="nav-item">
+            <a href="<?php echo $URL;?>/compras" class="nav-link active">
+              <i class="nav-icon fas fa-shopping-basket"></i>
+              <p>
+                Ventas
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="<?php echo $URL;?>ventas" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Listado de ventas</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="<?php echo $URL;?>ventas/create.php" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Realizar venta</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
 
 
           <li class="nav-item">
